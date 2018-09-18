@@ -1,0 +1,17 @@
+{
+  "##1. sample information": "samplename / sample fq file / sample suffix",
+  "rawFastqToCleanBam.sample_name": "Test",
+  "rawFastqToCleanBam.raw_fq_list": "File",
+  "rawFastqToCleanBam.discard_read1_suffix": "read1.fq.gz",
+
+  "##2. alignment tools": "bowtie2 / bwa",
+  "rawFastqToCleanBam.alignment_tool": "bowtie2",
+  "rawFastqToCleanBam.bowtie2_para": "-p 6 -x /lustre/user/liclab/publicData/igenomes/Homo_sapiens/UCSC/hg19/Sequence/Bowtie2Index/genome",
+  "rawFastqToCleanBam.bwa_para": "mem -t 4 /lustre/user/liclab/publicData/reference/Homo_sapiens/UCSC/hg19/Sequence/BWAIndex/genome.fa",
+
+  "##3. program parameters": "cutadapter, sort, markduplicates",
+  "rawFastqToCleanBam.cutadapter_para": "-m 25 -q 20,15 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT",
+  "rawFastqToCleanBam.sortbam_para": "-@ 4 -m 8G",
+  "rawFastqToCleanBam.markdup_para": "-Xms2g -Xmx8g -XX:ParallelGCThreads=6"
+
+}
