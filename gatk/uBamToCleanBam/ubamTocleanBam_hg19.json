@@ -1,0 +1,47 @@
+{
+  "##_COMMENT1": "SAMPLE NAME AND UNMAPPED BAMS",
+  "PreProcessingForVariantDiscovery_GATK4.sample_name": "SAMPLE_NAME",
+  "PreProcessingForVariantDiscovery_GATK4.ref_name": "hg19",
+  "PreProcessingForVariantDiscovery_GATK4.flowcell_unmapped_bams_list": "unmapped_bam.txt",
+  "PreProcessingForVariantDiscovery_GATK4.unmapped_bam_suffix": ".bam",
+  
+  "##_COMMENT2": "REFERENCE FILES", 
+  "PreProcessingForVariantDiscovery_GATK4.ref_dict": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.dict",
+  "PreProcessingForVariantDiscovery_GATK4.ref_fasta": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta",
+  "PreProcessingForVariantDiscovery_GATK4.ref_fasta_index": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.fai",
+  "PreProcessingForVariantDiscovery_GATK4.SamToFastqAndBwaMem.ref_sa": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.sa",
+  "PreProcessingForVariantDiscovery_GATK4.SamToFastqAndBwaMem.ref_amb": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.amb",
+  "PreProcessingForVariantDiscovery_GATK4.SamToFastqAndBwaMem.ref_bwt": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.bwt",
+  "PreProcessingForVariantDiscovery_GATK4.SamToFastqAndBwaMem.ref_ann": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.ann",
+  "PreProcessingForVariantDiscovery_GATK4.SamToFastqAndBwaMem.ref_pac": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.pac",
+  
+  "##_COMMENT3": "KNOWN SITES RESOURCES", 
+  "PreProcessingForVariantDiscovery_GATK4.dbSNP_vcf": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/dbsnp_138.hg19.vcf",
+  "PreProcessingForVariantDiscovery_GATK4.dbSNP_vcf_index": "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/dbsnp_138.hg19.vcf.idx",
+  "PreProcessingForVariantDiscovery_GATK4.known_indels_sites_VCFs": [
+    "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf"
+  ],
+  "PreProcessingForVariantDiscovery_GATK4.known_indels_sites_indices": [
+    "/home/litt/litt/data/ref_genome/gatk/ftp.broadinstitute.org/bundle/hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.idx"
+  ],
+
+  "##_COMMENT4": "MISC PROGRAM PARAMETERS", 
+  "PreProcessingForVariantDiscovery_GATK4.bwa_commandline": "bwa mem -K 100000000 -p -v 3 -t 4 -Y $bash_ref_fasta",
+
+  "##_COMMENT6": "PATHS",   
+  "PreProcessingForVariantDiscovery_GATK4.bwa_path": "/lustre/user/liclab/bin/",
+  "PreProcessingForVariantDiscovery_GATK4.gatk_path": "/home/litt/litt/downloads/gatk4/gatk-4.0.8.1/gatk",
+  "PreProcessingForVariantDiscovery_GATK4.picard_path": "/home/litt/bin/picard.jar",
+
+
+  "##_COMMENT7": "JAVA OPTIONS", 
+  "PreProcessingForVariantDiscovery_GATK4.SamToFastqAndBwaMem.java_opt": "-Xms3000m -Xmx8G -XX:ParallelGCThreads=3",
+  "PreProcessingForVariantDiscovery_GATK4.MergeBamAlignment.java_opt": "-Xms3000m -Xmx8G -XX:ParallelGCThreads=3",
+  "PreProcessingForVariantDiscovery_GATK4.MarkDuplicates.java_opt": "-Xms4000m -Xmx8G -XX:ParallelGCThreads=3",
+  "PreProcessingForVariantDiscovery_GATK4.SortAndFixTags.java_opt_sort": "-Xms4000m -Xmx8G -XX:ParallelGCThreads=3",
+  "PreProcessingForVariantDiscovery_GATK4.SortAndFixTags.java_opt_fix": "-Xms500m -Xmx8G -XX:ParallelGCThreads=3",
+  "PreProcessingForVariantDiscovery_GATK4.BaseRecalibrator.java_opt": "-Xms1G -Xmx2G -XX:ParallelGCThreads=1",
+  "PreProcessingForVariantDiscovery_GATK4.GatherBqsrReports.java_opt": "-Xms3000m -Xmx8G -XX:ParallelGCThreads=3",
+  "PreProcessingForVariantDiscovery_GATK4.ApplyBQSR.java_opt": "-Xms1G -Xmx2G -XX:ParallelGCThreads=1",
+  "PreProcessingForVariantDiscovery_GATK4.GatherBamFiles.java_opt": "-Xms2000m -Xmx8G -XX:ParallelGCThreads=3"
+}

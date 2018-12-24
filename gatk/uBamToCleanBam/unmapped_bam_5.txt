@@ -1,0 +1,5 @@
+/home/litt/litt/projects/wes/data/201808/Cleandata/human/jhx/jhx.unmapped.bam
+/home/litt/litt/projects/wes/data/201808/Cleandata/human/jqh/jqh.unmapped.bam
+/home/litt/litt/projects/wes/data/201808/Cleandata/human/jxy/jxy.unmapped.bam
+/home/litt/litt/projects/wes/data/201808/Cleandata/human/jyr/jyr.unmapped.bam
+/home/litt/litt/projects/wes/data/201808/Cleandata/human/lyt/lyt.unmapped.bam
